@@ -21,6 +21,9 @@
 
 body {
     background-color:var(--cor03);
+    background-image: url(midia/horizonte-plantinhas-fundo02.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
@@ -40,6 +43,20 @@ header {
     border-radius:2px 2px 0px 0px ;
 
 }
+header #perfil-foto{
+    display:block;
+    width: 70px;
+    padding-top:11px ;   
+}
+
+#name{
+    background-color: white;
+    width: 51px;
+    height: 11px;
+    margin: 10px 10px 10px 8px;
+    border-radius: 2px 2px 2px 2px;
+}
+
 #title{
     display: block;
     margin-top: 10px;
@@ -47,11 +64,6 @@ header {
     font-family: var(--font01)
 }
 
- header #perfil-foto{
-    display:block;
-    width: 70px;
-    padding-top:11px ;   
-}
 
 main {
     padding: 10px;
@@ -112,5 +124,21 @@ h2 {
 
 footer {
     background-color:var(--cor05);
+    width: 1495px;
+    height: 45px;
+    padding: 4px 10px 10px 10px;
+    margin:14px 3px -8px -11px;
+    border-radius: 10px 3px 2px 2px;
 
+}
+
+footer>nav p{
+    margin-left: 31px;
+    display: inline-block;
+    color: rgb(31, 29, 29);
+    border-radius: 2px 2px 2px 2px;
+}
+
+footer>nav p strong{
+    color: whitesmoke;
 }
