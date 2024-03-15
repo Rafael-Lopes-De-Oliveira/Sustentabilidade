@@ -68,10 +68,22 @@ header #perfil-foto{
 main {
     padding: 10px;
     background-color: var(--cor04);
-    margin: auto;
-    text-align: justify;
+    margin: -2px auto -11px auto;
     width: 900px;
+    border-radius: 0px 0px 6px 6px;
+    box-shadow: 4px 1px rgba(0, 0, 0, 0.199);
+    
 
+}
+
+main h1{
+    text-align: center;
+    color: var(--cor08);
+}
+
+main p{
+    text-align: justify;
+    width: 896px;
 }
 
 h2 {
