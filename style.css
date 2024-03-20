@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 @font-face {
     font-family:face;
     src: url(sunstentablidade/fonts/font-planta.ttf) format(truetype) ;
@@ -26,6 +27,7 @@ body {
     background-size: cover;
 }
 
+/* Header */
 header {
     background-image: url(midia/fundo-samanbaia.jpeg);
     background-repeat:no-repeat;
@@ -41,8 +43,8 @@ header {
     padding-bottom:10px ;
     margin: -8px -8px 2px -8px;
     border-radius:2px 2px 0px 0px ;
-
 }
+
 header #perfil-foto{
     display:block;
     width: 70px;
@@ -63,16 +65,17 @@ header #perfil-foto{
     font-size: 59px;
     font-family: var(--font01)
 }
+/* Fim Header */
 
-
+/* Main */
 main {
     padding: 10px;
     background-color: var(--cor04);
     margin: -2px auto -11px auto;
-    width: 900px;
     border-radius: 0px 0px 6px 6px;
     box-shadow: 4px 1px rgba(0, 0, 0, 0.199);
-
+    max-width: 900px;
+    min-width:652px;
 }
 
 main h1{
@@ -91,41 +94,38 @@ iframe{
     margin: 43px auto 65px auto;
 }
 
-main p{
-    text-align: justify;
-    width: 896px;
-}
-
-h2 {
-    text-align: center;
-}
-
 .blocos-main{
+    margin-bottom: 40px;
+}
+
+main h3{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+
+.txtmain{
     display: inline-block;
-    margin-bottom: 100px;
-    text-align: center;
+}
+
+main p{
 }
 
 main img{
     width: 320px; 
     height: 211px;
-    position: absolute;
 }
+/* Fim Main */
 
-
-.txtmain{
-    width: 428px;
-    margin: 46px 35px 1px 9px;
-}
-
-
-
+/* Footer */
 footer {
     background-color:var(--cor05);
-    width: 1495px;
+    min-width: 850px;
+    max-width: 1700px;
     height: 45px;
-    padding: 4px 10px 10px 10px;
-    margin:14px 3px -8px -11px;
+    padding: 4px 0px 10px 10px;
+    margin:14px -8px -8px -11px;
     border-radius: 10px 3px 2px 2px;
 
 }
@@ -140,3 +140,5 @@ footer>nav p{
 footer>nav p strong{
     color: whitesmoke;
 }
+
+/* Fim Footer */
