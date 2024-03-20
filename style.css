@@ -21,10 +21,7 @@
 }
 
 body {
-    background-color:var(--cor03);
-    background-image: url(midia/horizonte-plantinhas-fundo02.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: var(--cor06);
 }
 
 /* Header */
@@ -79,6 +76,7 @@ main {
 }
 
 main h1{
+    text-transform: capitalize;
     text-align: center;
     color: var(--cor08);
 }
@@ -94,27 +92,34 @@ iframe{
     margin: 43px auto 65px auto;
 }
 
-.blocos-main{
-    margin-bottom: 40px;
-}
 
 main h3{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
+    color: rgba(0, 0, 0, 0.667);
+    margin-left: 50px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.637);
+    width: 733px;
+    height: 23px;
+    border-radius: 1px 7px 1px 7px;
 }
 
+.container{
+    align-items: center;
+}
 
-.txtmain{
-    display: inline-block;
+.textmain{
+    
 }
 
 main p{
+
 }
 
 main img{
+    margin-left: 50px;
     width: 320px; 
     height: 211px;
+
 }
 /* Fim Main */
 
@@ -130,15 +135,29 @@ footer {
 
 }
 
+
 footer>nav p{
-    margin-left: 31px;
+
     display: inline-block;
     color: rgb(31, 29, 29);
     border-radius: 2px 2px 2px 2px;
 }
 
+footer a{
+    text-decoration: ;
+    color:rgb(31, 29, 29); ;
+}
+
 footer>nav p strong{
     color: whitesmoke;
 }
-
 /* Fim Footer */
+
+
+
+
+
+
+
+
+
