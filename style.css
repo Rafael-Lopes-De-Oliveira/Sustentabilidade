@@ -26,6 +26,7 @@ body {
 
 /* Header */
 header {
+    background-attachment: scroll;
     background-image: url(midia/fundo-samanbaia.jpeg);
     background-repeat:no-repeat;
     background-size:cover;
@@ -40,6 +41,7 @@ header {
     padding-bottom:10px ;
     margin: -8px -8px 2px -8px;
     border-radius:2px 2px 0px 0px ;
+    
 }
 
 header #perfil-foto{
