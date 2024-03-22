@@ -20,30 +20,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    background-color: var(--cor06);
-}
-
-/* Header */
-header {
-    background-attachment: scroll;
-    background-image: url(midia/fundo-samanbaia.jpeg);
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position: left center;
-    background-color: var(--cor05);
-
-    text-align: center;
-    font-size: larger;
-    font-weight: bolder;
-    color: white;
-
-    padding-bottom:10px ;
-    margin: -8px -8px 2px -8px;
-    border-radius:2px 2px 0px 0px ;
-    
-}
-
 header #perfil-foto{
     display:block;
     width: 70px;
@@ -58,102 +34,6 @@ header #perfil-foto{
     border-radius: 2px 2px 2px 2px;
 }
 
-#title{
-    display: block;
-    margin-top: 10px;
-    font-size: 59px;
-    font-family: var(--font01)
-}
-/* Fim Header */
-
-/* Main */
-main {
-    padding: 10px;
-    background-color: var(--cor04);
-    margin: -2px auto -11px auto;
-    border-radius: 0px 0px 6px 6px;
-    box-shadow: 4px 1px rgba(0, 0, 0, 0.199);
-    max-width: 900px;
-    min-width:652px;
-}
-
-main h1{
-    text-transform: capitalize;
-    text-align: center;
-    color: var(--cor08);
-}
-
-iframe{
-    margin: 10px 10px 10px 69px;
-    padding: 2px 2px 52px 15px;
-    width: 758px;
-    height: 354px;
-}
-
-#tripe{
-    margin: 43px auto 65px auto;
-}
-
-
-main h3{
-    color: rgba(0, 0, 0, 0.667);
-    margin-left: 50px;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.637);
-    width: 733px;
-    height: 23px;
-    border-radius: 1px 7px 1px 7px;
-}
-
-.container{
-    align-items: center;
-}
-
-.textmain{
-    
-}
-
-main p{
-
-}
-
-main img{
-    margin-left: 50px;
-    width: 320px; 
-    height: 211px;
-
-}
-/* Fim Main */
-
-/* Footer */
-footer {
-    background-color:var(--cor05);
-    min-width: 850px;
-    max-width: 1700px;
-    height: 45px;
-    padding: 4px 0px 10px 10px;
-    margin:14px -8px -8px -11px;
-    border-radius: 10px 3px 2px 2px;
-
-}
-
-
-footer>nav p{
-
-    display: inline-block;
-    color: rgb(31, 29, 29);
-    border-radius: 2px 2px 2px 2px;
-}
-
-footer a{
-    text-decoration: ;
-    color:rgb(31, 29, 29); ;
-}
-
-footer>nav p strong{
-    color: whitesmoke;
-}
-/* Fim Footer */
 
 
 
