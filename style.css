@@ -68,7 +68,23 @@ main{
     margin: 0 auto;
     border-radius: 10px;
 }
+.opcoes{
+    background-color: lightblue;
+    border-top-right-radius:5px ;
+    border-top-left-radius:5px ;
+    height: 25px;
+}
+.opcoes li{
+    display: inline;
+    padding-left: 35px;
+    background-color:;
+}
 
+.opcoes a{
+    text-decoration: none;
+    background-color: white;
+
+}
 main>div:nth-child(1) h1{
     text-align: center;
     text-transform: uppercase;
@@ -104,11 +120,6 @@ main>div:nth-child(1) p{
     min-height:90px;
 }
 
-.comeco>p{
-    max-width: 650px;
-    min-width:90px;
-    min-height:90px;
-}
 
 
 @media (min-width:500px){
