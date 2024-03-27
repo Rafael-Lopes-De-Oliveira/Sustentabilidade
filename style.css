@@ -93,6 +93,11 @@ main{
     background-color: rgba(255, 255, 255, 0.592);
 }
 
+main>h1{
+    padding-top: 10px;
+    font-size: 43px;
+    text-align: center;
+}
 
 main>div:nth-child(1) h1{
     text-align: center;
@@ -123,13 +128,30 @@ main>div:nth-child(1) p{
     margin-left: 10px ;
     margin-top: 15px;
 }
+
+.corpo div>h1{
+    background-color: rgba(255, 255, 255, 0.575);
+    color: var(--cor07);
+    margin-left: 20px;
+    border-radius: 7px;
+    text-transform: capitalize;
+    
+}
 .corpo div>p{
     max-width: 650px;
     min-width:90px;
     min-height:90px;
 }
 
+.ft{
+    width: 304px;
+    height: 235px;
+}
 
+footer{
+    margin-top: 20px;
+    background-color: var(--cor04);
+}
 
 @media (min-width:500px){
     header h1{
