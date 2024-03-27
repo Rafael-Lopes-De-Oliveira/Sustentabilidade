@@ -88,14 +88,13 @@ main{
     color: white;
     padding: 2px;
 }
-
+.opcoes a:hover{
+    background-color: rgba(255, 255, 255, 0.444);
+}
 .list1{
     display: none;
 }
 
-.opcoes a:hover{
-    background-color: rgba(255, 255, 255, 0.444);
-}
 
 
 main>div:nth-child(1) h1{
