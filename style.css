@@ -38,6 +38,9 @@ header{
     min-width: 150px;
 }
 
+header img{
+    border-radius: 37px;
+}
 header h1{
     text-transform: uppercase;
     font-family: var(--font01);
