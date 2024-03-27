@@ -72,7 +72,7 @@ main{
     border-radius: 10px;
 }
 .opcoes{
-    background-color: lightblue;
+    background-color:black;
     border-top-right-radius:5px ;
     border-top-left-radius:5px ;
     height: 25px;
@@ -85,9 +85,13 @@ main{
 
 .opcoes a{
     text-decoration: none;
-    background-color: white;
-
+    color: white;
+    padding: 3px;
 }
+
+.opcoes a:
+
+
 main>div:nth-child(1) h1{
     text-align: center;
     text-transform: uppercase;
