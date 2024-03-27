@@ -78,29 +78,20 @@ main{
     border-top-left-radius:5px ;
     height: 25px;
 }
-.opcoes p{
+.opcoes li{
     display: inline;
     padding-left: 35px;
 }
 
-.opcoes a{
+.opcoes li a{
     text-decoration: none;
     color: white;
-    padding: 2px;
+    border-radius: 2px;
 }
 
 .opcoes a:hover{
     background-color: rgba(255, 255, 255, 0.592);
 }
-
-.opcoes div>p{
-    display: none;
-}
-
-.list1{
-    display: none;
-}
-
 
 
 main>div:nth-child(1) h1{
