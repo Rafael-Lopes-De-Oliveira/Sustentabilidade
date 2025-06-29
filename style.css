@@ -72,6 +72,7 @@ body{
 } 
 
 header{
+    padding: 3px;
     background-color:var(--cor04);
     height: 25vh;
     margin-bottom: 10px;
@@ -104,6 +105,7 @@ header #title{
 }
 
 main{
+    padding: 3px;
     border-radius: 10px;
     padding: 7px;
 }
