@@ -8,68 +8,21 @@
     <title>Sustentabilidade</title>
 </head>
 <body>
-
-    
-
-
-    <!-- <section id="site">
-        <header>
-            <img src="midia/perfil-02.jpg" alt="foto perfil" id="perfil-foto">
-            <div id="name"></div>
-            <h1 id="title">Sustentabilidade</h1>
-        </header>
-        <Main>
-            <ul class="opcoes">
-                <li><a href="#">Analises</a></li>
-                <li><a href="#">Ambientes</a></li>
-                <li><a href="#">Associados</a></li>
-                <li><a href="#">Links</a></li>
-                <li><a href="#">Mais...</a></li>
-            </ul>
-            <h1>Tripé da Sustentabilidade</h1>
-            <section class="corpo">
-                <div>
-                    <h1>social:</h1>
-                    <img src="midia/Sus_social.jpg" alt="#" class="ft">
-                </div>
-                <div>
-                    <p>Busca melhorar o bem-estar humano de forma duradoura, garantindo justiça social, igualdade e respeito aos direitos humanos.
-                    </p>
-                </div>
-                <div >
-                    <h1>ambiental:</h1>
-                    <img src="midia/Sus_ambiental.jpg" alt="#" class="ft">
-                </div>
-                <div>
-                    <p>É o uso responsável dos recursos naturais para proteger o meio ambiente e garantir o bem-estar das futuras gerações.</p>
-                </div>
-                <div>
-                    <h1>economica:</h1>
-                    <img src="midia/Sus_economica.jpg" alt="#" class="ft">
-                </div>
-                <div>
-                    <p>Refere-se ao compromisso e às ações que visam melhorar a qualidade de vida da comunidade, promovendo a igualdade, a educação, o bem-estar social e a justiça para todos.</p>
-                </div>
-            </section>
-        </Main> -->
-    <!-- </section> -->
-
     <section id="bloco">
         <section id="cas">
             <h1>Cadastro</h1>
         </section>
-
+    
         <div id="cadastro">
-        
             <p>
                 Nome:
-                <input type="text" name="name" id="name">
+                <input type="text" name="name" id="name" maxlength="8" minlength="1">
             </p>
             <p>
-                Sexo:
-                Mas
-                <input type="radio" name="sexo" id="masc" checked>
-                Fem<input type="radio" name="sexo" id="fem"> <br>
+                Sexo: <br>
+                <label for="Masc">Masc: <input type="radio" name="radsex" checked ></label>
+                <label for="Fem">Fem: <input type="radio" name="radsex"></label>
+                <label for="Alfa">Alfa: <input type="radio" name="radsex"></label>
             </p>
             <p id="confirm">
                 <input type="button" value="confirmar" onclick="cadastro()" >
@@ -77,14 +30,45 @@
         </div>
     </section>
 
-    <footer>
+    <section id="site">
+        <header>
+            <section id="perfil">
+                <div id="nada"><img src="perfil.png" alt="foto perfil" id="img"></div>
+                <div id="areanome">
+                </div>
+            </section>
+            <h1 id="title">Sustentabilidade</h1>
+        </header>
 
+    <main>
+        <h1>Tripé da Sustentabilidade</h1>
+        <h1>social:</h1>
+        <div>
+            <img src="Sus_social.jpg" alt="#">
+            <p>Busca melhorar o bem-estar humano de forma duradoura, garantindo justiça social, igualdade e respeito aos direitos humanos.
+            </p>
+        </div>
+        <h1>ambiental:</h1>
+        <div >
+            <img src="Sus_ambiental.jpg" alt="#">
+
+            <p>É o uso responsável dos recursos naturais para proteger o meio ambiente e garantir o bem-estar das futuras gerações.</p>
+        </div>
+        <h1>economica:</h1>
+        <div>
+            <img src="Sus_economica.jpg" alt="#">
+
+            <p>Refere-se ao compromisso e às ações que visam melhorar a qualidade de vida da comunidade, promovendo a igualdade, a educação, o bem-estar social e a justiça para todos.</p>
+            </div>
+    </main> 
+
+    <footer>
         <nav>
             <p><strong>Criador:</strong> Rafael Lopes</p>
             <p><strong>Tel:</strong> <a href="#">(33) 999444321</a></p>
             <p><strong>Insta:</strong ><a href="#"> joo123</a></p>
         </nav>
-    </footer> 
+    </footer>
 
     <script src="nome.js"></script>
 </body>
