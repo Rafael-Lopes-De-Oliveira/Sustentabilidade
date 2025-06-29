@@ -14,34 +14,93 @@
     --cor07:#35463C;
     --cor08:#2C332F;
     --font01:face;
-}
+} 
 
-*{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 0px;
-    padding: 0px;
-}
 
+
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+
+
+/* 
 *  main img{
     width: 250px;
     height: 220px;
 }
 
-body{
-    background-color: var(--cor03);
+* h1{
+    text-align: center;
+} */
+
+/* section#site{
+    display: none;
+} */
+
+*{
+    margin: 0px;
+    padding: 0px;
 }
 
+body,html,bloco{
+    width: 100vw;
+    height: 100vh;
+}
+
+#cas{
+    width: 100vw;
+    height: 10vh;
+    margin-bottom:10px ;
+    text-align: center;
+}
+
+#cas>h1{
+    color: white;
+    font-size: 40px;
+    margin: 30px;
+}
+
+#cadastro{
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px rgba(17, 90, 17, 0.322);
+    padding: 6px;
+    margin:auto;
+    background-color: white ;
+    width: 65vw;
+    height: 40vh;
+
+}
+
+p{
+    padding: 10px;
+}
+
+ #confirm > input{ 
+    width: 32vw;
+    height: 5.6vh;
+    padding: 2px;
+    margin: auto 13vw;
+} 
+
+
+
+
+ body{
+    background-color: var(--cor03);
+} 
+
+  
 header{
     background-color:var(--cor04);
     height: 130px;
     margin-bottom: 10px;
-    position: relative;
-    min-width: 150px;
+
+ position: relative;
+    min-width: 150px; 
 }
 
 header img{
     border-radius: 37px;
 }
+
 header h1{
     text-transform: uppercase;
     font-family: var(--font01);
@@ -150,12 +209,14 @@ main>div:nth-child(1) p{
 .ft{
     width: 304px;
     height: 235px;
-}
+} 
+
 
 footer{
-    margin-top: 20px;
+    margin:25vh auto;
     background-color: var(--cor04);
 }
+
 footer nav>p:nth-child(1){
     font-weight: bolder;
 }
@@ -167,7 +228,7 @@ a{
 
 a:hover{
     text-decoration: underline;
-}
+} 
 
 
 
