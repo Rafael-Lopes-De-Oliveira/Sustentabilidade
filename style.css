@@ -25,51 +25,46 @@ body{
     background-color: var(--cor03);
 }
 
-#cas{
-    width: 100vw;
-    height: 10vh;
-    margin-bottom:10px ;
+#bloco{
+    margin: 50% auto;
+    display: grid;
     text-align: center;
+    background-color: white;
+    width: 60vw;
+    height: 60vw;
+    border-radius: 6px;
+    padding: 10px;
+}
+#bloco>h1{
+    margin-bottom:2px ;
+    color:black;
+    font-size: 22px;
+}
+#bloco p{
+    margin-bottom: 5px;
 }
 
-#cas>h1{
-    color: white;
-    font-size: 40px;
-    margin: 30px;
+#name{
+    border: none;
+    border-radius: 4px;
+    padding: 4px;
+    width: 30vw;
+    height: 1.8vh;
+    background-color: var(--cor04);
+
 }
 
 #cadastro{
     border-radius: 15px;
     box-shadow: 3px 3px 3px 3px rgba(17, 90, 17, 0.322);
     padding: 6px;
-    margin:auto;
     background-color: white ;
-    width: 65vw;
-    height: 40vh;
-
-}
-#cadastro p{
-    padding: 10px;
-}
-
-#cadastro>p:nth-child(1){
-    display: inline;
-}
-
-#cadastro>p:nth-child(1) >input{
-    padding: 2px;
-    width: 30vw;
-    height: 1.8vh;
-    border:1px solid black ;
-    background-color: var(--cor03);
-}
-
- #confirm > input{ 
     width: 32vw;
     height: 5.6vh;
     padding: 2px;
-    margin: auto 13vw;
-} 
+    margin: 4vh auto ;
+
+}
 
 header{
     padding: 3px;
@@ -96,6 +91,9 @@ header #title{
 
 #perfil{
     margin: auto
+}
+#nome{
+    text-align: center;
 }
 
 
