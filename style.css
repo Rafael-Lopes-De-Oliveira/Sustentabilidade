@@ -9,6 +9,7 @@
     --cor06:#437057;
     --cor07:#35463C;
     --cor08:#2C332F;
+    --cor09: #ffffff;
 } 
 
 
@@ -51,7 +52,7 @@ body{
     width: 30vw;
     height: 1.8vh;
     background-color: var(--cor04);
-
+    
 }
 
 #cadastro{
@@ -63,7 +64,7 @@ body{
     height: 5.6vh;
     padding: 2px;
     margin: 4vh auto ;
-
+    
 }
 
 header{
@@ -71,6 +72,7 @@ header{
     background-color:var(--cor04);
     height: 25vh;
     margin-bottom: 10px;
+    width: 100vw;
 }
 
 
@@ -86,7 +88,7 @@ header #title{
     font-family: var(--font01);
     text-align: center;
     font-size: 9.4vw;
-
+    
 }
 
 #perfil{
@@ -102,28 +104,41 @@ header #title{
     font-family: var(--font01);
 }
 
-main{
-    padding: 3px;
-    border-radius: 10px;
-    padding: 7px;
-}
+
 
 main > h1:nth-child(1){
     text-align: center;
-    text-transform: uppercase;
     font-size: 9vw;
 }
 main div{
     margin-bottom: 10px;
 }
 
-main img{
+#img1{
+    background-image: url(picturef1.jpeg) ;
+}
+
+#img2{
+    background-image: url(picturef2.jpeg) ;
+}
+
+#img3{
+    background-image: url(Sus_economica.jpg);
+    background-repeat:no-repeat ;
+    background-position: center center;
+    background-size: contain;
+}
+
+#img1,#img2,#img3{
     width: 100vw;
-
-} 
-
-main p{
+    height: 60vh;
+}
+div p{
     font-size: 4vw;
+    color:var(--cor06) ;
+    text-align: center;
+    bottom: auto;
+    position: absolute;
 }
 
 
