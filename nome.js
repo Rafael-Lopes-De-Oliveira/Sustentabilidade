@@ -28,7 +28,7 @@ cadastro.addEventListener('click', () =>{
             image.src = 'mm.avif';
             areaftperfil.style.background = '#5bc287'
         }else if(sex[2].checked){
-            image.src = 'wolf1.jpg'
+            image.src = 'low.jpg'
         }
     }
 
