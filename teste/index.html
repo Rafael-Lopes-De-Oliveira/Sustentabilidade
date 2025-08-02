@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        section{
+            margin: auto;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        #test1{
+            top: 50px;
+            left: 50px;
+            z-index:-1;
+            background-color: rgba(47, 0, 255, 0.511);
+        }
+        #test2{
+            top: 100px;
+            left: 100px;
+
+            z-index: 1;
+            background-color: rgb(255, 0, 0);
+        }
+
+        div{          
+            position: fixed;
+            margin: 10px auto; 
+            width: 300px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div id="test1"></div>
+        <div id="test2"></div>
+    </section>
+    
+</body>
+</html>

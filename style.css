@@ -13,29 +13,12 @@
 } 
 
 
-section#site{
-    display: none;
-}
-
 *{
     margin: 0px;
     padding: 0px;
 }
 
-body{
-    background-color: var(--cor03);
-}
 
-#bloco{
-    margin: 50% auto;
-    display: grid;
-    text-align: center;
-    background-color: white;
-    width: 60vw;
-    height: 60vw;
-    border-radius: 6px;
-    padding: 10px;
-}
 #bloco>h1{
     margin-bottom:2px ;
     color:black;
@@ -44,7 +27,6 @@ body{
 #bloco p{
     margin-bottom: 5px;
 }
-
 #name{
     border: none;
     border-radius: 4px;
@@ -54,7 +36,6 @@ body{
     background-color: var(--cor04);
     
 }
-
 #cadastro{
     border-radius: 15px;
     box-shadow: 3px 3px 3px 3px rgba(17, 90, 17, 0.322);
@@ -67,28 +48,76 @@ body{
     
 }
 
+section#semibloco{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(17, 90, 17, 0.2);
+    z-index: 2;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    backdrop-filter: blur(10px)
+}      
+
+#bloco{
+    margin: 50% auto;
+    display: grid;
+    text-align: center;
+    background-color: white;
+    width: 60vw;
+    height: 60vw;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+#site{
+    background-color: var(--cor03);
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+}
+
 header{
+    /* background-color: rgba(17, 90, 17, 0.2);
+     rgba(53, 197, 115,0.2) 
+    backdrop-filter: blur(100px);
+    position: fixed; */
     padding: 3px;
-    background-color:var(--cor04);
-    height: 25vh;
+    height: 23vh;
     margin-bottom: 10px;
     width: 100vw;
 }
 
 
-header img{
-    border-radius: 37px;
-    width: 17vw;
+header>section>div img{
+    width: 15vw;
     border-radius: 100%;
 }
 
+section #fdheader{
+    display:flex ;
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+section img:nth-child(2){
+    width: 80px;
+    height: 80px;
+    margin: auto;
+
+    align-items: center;
+
+}
+
 header #title{
-    margin: 20px auto 20px auto;
+    margin: auto;
     text-transform: uppercase;
-    font-family: var(--font01);
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 9.4vw;
-    
 }
 
 #perfil{
@@ -101,7 +130,9 @@ header #title{
 
 #areanome{
     width: 17vw;
-    font-family: var(--font01);
+    font-family:serif;
+    background-color: white ;
+    text-align: center;
 }
 
 
@@ -109,6 +140,15 @@ header #title{
 main > h1:nth-child(1){
     text-align: center;
     font-size: 9vw;
+    background-color: var(--cor03)
+}
+
+main> h1{
+    text-align: center;
+    background-color: var(--cor08);
+    width: 100vw;
+    height: 5vh;
+    margin: 0px;
 }
 main div{
     margin-bottom: 10px;
@@ -116,13 +156,16 @@ main div{
 
 #img1{
     background-image: url(picturef1.jpeg) ;
+    z-index: 1;
 }
 
 #img2{
     background-image: url(picturef2.jpeg) ;
+    z-index: 2;
 }
 
 #img3{
+    z-index: 3;
     background-image: url(Sus_economica.jpg);
     background-repeat:no-repeat ;
     background-position: center center;

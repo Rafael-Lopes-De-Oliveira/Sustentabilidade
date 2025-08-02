@@ -3,7 +3,7 @@ const image = window.document.querySelector('img#img');
 const nome = window.document.querySelector('#name');
 
 let site = window.document.querySelector('#site');
-let bloco = window.document.querySelector('#bloco');
+let bloco = window.document.querySelector('#semibloco');
 let area = window.document.querySelector('#areanome');
 let areaftperfil = window.document.querySelector('#areaftperfil');
 
@@ -13,12 +13,16 @@ cadastro.addEventListener('click', () =>{
     if(nome.value == 0){
         window.alert('Coloque um Name válido')
     }else{
-        site.style.display = 'block';
-        bloco.style.display = 'none';
-        bloco.style.transition = ' opacity 0.2s';
+        site.style.zIndex ='2';
+        site.style.position ='relative';
+        semibloco.style.zIndex ='1';
+        semibloco.style.transition = ' opacity 0.2s';
+        // site.style.display = 'block';
+        // bloco.style.display = 'none';
         
         area.innerHTML = `${nome.value}`;
-        area.style.background = 'white';
+
+       
         
         
         
