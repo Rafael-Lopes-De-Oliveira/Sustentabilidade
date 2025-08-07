@@ -10,6 +10,12 @@
     --cor07:#35463C;
     --cor08:#2C332F;
     --cor09: #ffffff;
+    --c1:#004E64;
+    --c2:#00A5CF;
+    --c3:#9FFFCB; 
+    --c4:#25A18E;  
+    --c5:#7AE582; 
+    --c6:#29BF12;
 } 
 
 
@@ -19,7 +25,7 @@
 }
 
 body{
-    background-color: black;
+    background-color:var(--c1) ;
 }
 
 #bloco>h1{
@@ -36,7 +42,7 @@ body{
     padding: 4px;
     width: 30vw;
     height: 1.8vh;
-    background-color: var(--cor04);
+    background-color: var(--c3);
     
 }
 #cadastro{
@@ -74,7 +80,7 @@ section#semibloco{
 }
 
 #site{
-    background-color: black;
+    background-color: var(--c1);
     z-index: 1;
     left: 0px;
     top: 0px;
@@ -82,14 +88,13 @@ section#semibloco{
 }
 
 header{
-    /* background-color: rgba(17, 90, 17, 0.2);
-     rgba(53, 197, 115,0.2) 
-    backdrop-filter: blur(100px);
-    position: fixed; */
     padding: 3px;
     height: 23vh;
-    margin-bottom: 10px;
     width: 100vw;
+    background-image: url("/midia/ftfundo.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -129,15 +134,6 @@ header #title{
     text-align: center;
 }
 
-
-header{
-    background-image: url("/midia/ftfundo.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
 #ftnav{
     background-image: url(/midia/folhinhafundo.jpg);
     background-size: cover;
@@ -163,16 +159,21 @@ header{
     color: var(--cor06);
 }
 
+h2{
+    text-align: center;
+    color: var(--c2);
+}
+
 section#teste01{
-     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    width: 100vw;
     display: inline-block;
-    margin: 5px auto;
+    margin: auto;
+
 }
 
 .tes01{
+    padding: 1px;
     width: 32vw;
-    padding-top: 5px;
 }
 
 #n{
@@ -190,7 +191,8 @@ section#teste01{
     margin: 20px auto;
     width: 90vw;
     border-radius: 10px;
-    background-color: var(--cor08);
+    color:var(--c4);
+    background-color: var(--cor07);
     box-shadow: 2px 2px 5px 1px rgba(255, 255, 255, 0.456);
 }
 
@@ -198,8 +200,8 @@ section#teste01{
 
 
 footer{
-    background-color: var(--cor04);
-    height: 11.6vh;
+    background-color: var(--cor08);
+    height: 12vh;
 }
 footer p {
     padding: 5px;
