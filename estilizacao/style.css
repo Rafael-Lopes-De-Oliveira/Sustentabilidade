@@ -80,7 +80,6 @@ section#semibloco{
 }
 
 #site{
-    background-color: var(--c1);
     z-index: 1;
     left: 0px;
     top: 0px;
@@ -119,6 +118,7 @@ header #title{
     font-size: 9.4vw;
 }
 
+
 #perfil{
     margin: auto
 }
@@ -132,6 +132,11 @@ header #title{
     font-family:serif;
     background-color: white ;
     text-align: center;
+}
+
+
+main,#site{
+    background-color: white;
 }
 
 #ftnav{
@@ -183,24 +188,53 @@ section#teste01{
 #tripesus img{
     width: 40vw;
     height: 25vh;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius:10px ;
 }
+
+#tripesus p{
+    padding-top: 3px;
+}
+
+
+#social h3{
+    color: var(--c2);
+}
+
+#social p{
+    color: var(--c2);
+}
+#ambiental h3{
+    color:white;
+}
+#ambiental p{
+    color: white;
+}
+
+#economica h3{
+    color:var(--c4);
+}
+
+#economica p{
+    color:var(--c4);
+}
+
 
 #social,#ambiental,#economica{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     margin: 20px auto;
     width: 90vw;
+    height: 25vh;
     border-radius: 10px;
-    color:var(--c4);
     background-color: var(--cor07);
-    box-shadow: 2px 2px 5px 1px rgba(255, 255, 255, 0.456);
+    box-shadow: 2px 2px 5px 1px var(--cor06);
 }
 
 
 
-
 footer{
-    background-color: var(--cor08);
+    background-color: var(--cor03);
     height: 12vh;
 }
 footer p {
@@ -220,9 +254,3 @@ a{
 a:hover{
     text-decoration: underline;
 } 
-
-
-
-
-
-
