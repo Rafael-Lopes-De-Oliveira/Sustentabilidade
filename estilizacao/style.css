@@ -59,7 +59,7 @@ section#semibloco{
     left: 0px;
     top: 0px;
     position: fixed;
-    backdrop-filter: blur(10px)
+    backdrop-filter: blur(10px);
 }      
 
 #bloco{
@@ -101,9 +101,9 @@ header>section>div img{
 section #ftheader{
     display:flex ;
     width: 100vw;
-    text-align: center;
     justify-content: center;
-    justify-items: center;
+    backdrop-filter: blur(1.5px);
+
 }
 
 header #title{
@@ -130,33 +130,42 @@ header #title{
 }
 
 
+header{
+    background-image: url("/midia/ftfundo.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-main > h1:nth-child(1){
+
+#ftnav{
+    background-image: url(/midia/folhinhafundo.jpg);
+    background-size: cover;
     text-align: center;
-    font-size: 9vw;
-    background-color: var(--cor03)
+    color: white;
+    margin-bottom: 30px;
 }
 
-
-#social,#ambiental,#economica{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    margin: 20px auto;
-    width: 90vw;
-    border-radius: 10px;
-    background-color: var(--cor08);
-    box-shadow: 2px 2px 5px 1px rgba(255, 255, 255, 0.456);
+#ftnav h1{
+    backdrop-filter: blur(0.8px);
 }
 
-main>section img{
-    width: 40vw;
-    height: 25vh;
+#ftnav p{
+    display: inline-block;
+    padding: 2px;
+    margin: auto 2px;
+    font-size: 16px;
 }
 
+#ftnav p:hover{
+    backdrop-filter: blur(1.2px);
+    border-radius: 7px;
+    color: var(--cor06);
+}
 
 section#teste01{
-    /* display: grid;
-    grid-template-columns: repeat(3,1fr); */
+     display: grid;
+    grid-template-columns: repeat(3,1fr);
     display: inline-block;
     margin: 5px auto;
 }
@@ -169,6 +178,23 @@ section#teste01{
 #n{
     padding-bottom: 13px;
 }
+
+#tripesus img{
+    width: 40vw;
+    height: 25vh;
+}
+
+#social,#ambiental,#economica{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 20px auto;
+    width: 90vw;
+    border-radius: 10px;
+    background-color: var(--cor08);
+    box-shadow: 2px 2px 5px 1px rgba(255, 255, 255, 0.456);
+}
+
+
 
 
 footer{
