@@ -16,6 +16,11 @@
     --c4:#25A18E;  
     --c5:#7AE582; 
     --c6:#29BF12;
+
+    --tem1:#D0FEF5;
+    --tem2:#2B061E;
+    --tem3:#022F40;
+    --tem4:#EA9E8D;
 } 
 
 
@@ -66,17 +71,29 @@ section#semibloco{
     top: 0px;
     position: fixed;
     backdrop-filter: blur(10px);
+    grid-template-columns: repeat(1,1fr);
+    display: grid;
 }      
 
 #bloco{
-    margin: 50% auto;
+    margin: auto;
     display: grid;
     text-align: center;
     background-color: white;
+    align-items: center;
     width: 60vw;
     height: 60vw;
     border-radius: 6px;
-    padding: 10px;
+    padding: 2px;
+}
+
+
+#ftpic{
+    margin:0px auto 10px auto;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height:18vw;
+    width: 60vw;
 }
 
 #site{
@@ -134,21 +151,28 @@ header #title{
     text-align: center;
 }
 
+#tem1{
+    padding: 10px;
+    background-color: var(--tem1);
+    height: 33vh;
+}
 
-main,#site{
-    background-color: white;
+
+#tem2{
+    padding: 10px;
+    height: 92vh;
+    background-color: var(--tem2);
 }
 
 #ftnav{
     background-image: url(/midia/folhinhafundo.jpg);
     background-size: cover;
     text-align: center;
-    color: white;
-    margin-bottom: 30px;
+    color:var(--c3);
 }
 
 #ftnav h1{
-    backdrop-filter: blur(0.8px);
+    backdrop-filter: blur(0.4px);
 }
 
 #ftnav p{
@@ -166,7 +190,7 @@ main,#site{
 
 h2{
     text-align: center;
-    color: var(--c2);
+    color: var(--tem4);
 }
 
 section#teste01{
@@ -205,10 +229,10 @@ section#teste01{
     color: var(--c2);
 }
 #ambiental h3{
-    color:white;
+    color:rgba(255, 255, 255, 0.727);
 }
 #ambiental p{
-    color: white;
+    color:rgba(255, 255, 255, 0.789);
 }
 
 #economica h3{
@@ -227,14 +251,14 @@ section#teste01{
     width: 90vw;
     height: 25vh;
     border-radius: 10px;
-    background-color: var(--cor07);
+    background-color: var(--tem3);
     box-shadow: 2px 2px 5px 1px var(--cor06);
 }
 
 
 
 footer{
-    background-color: var(--cor03);
+    background-color: var(--c1);
     height: 12vh;
 }
 footer p {
