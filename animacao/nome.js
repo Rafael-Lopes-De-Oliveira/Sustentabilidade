@@ -10,9 +10,20 @@ let areaftperfil = window.document.querySelector('#areaftperfil');
 const cadastro = window.document.querySelector('#cadastro');
 
 cadastro.addEventListener('click', () =>{
+    
     if(nome.value == 0){
         window.alert('Coloque um Name válido')
     }else{
+
+
+    if(sex[0].checked){
+        image.src = 'midia/low.jpg';
+    }else if (sex[1].checked){
+        image.src = 'midia/mm.avif';
+    }else{
+        image.src = 'midia/imgrobo.png'
+    }
+
         site.style.zIndex ='4';
         site.style.position ='relative';
         document.body.style.zIndex = '3'
@@ -27,13 +38,6 @@ cadastro.addEventListener('click', () =>{
         
         
         
-        if(sex[0].checked){
-            image.src = 'midia/perfil.png'
-        }else if(sex[1].checked){
-            image.src = 'midia/mm.avif';
-        }else if(sex[2].checked){
-            image.src = 'midia/low.jpg'
-        }
     }
 
 })
