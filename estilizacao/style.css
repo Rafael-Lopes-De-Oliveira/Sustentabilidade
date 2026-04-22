@@ -110,7 +110,7 @@ header{
     padding: 3px;
     height: 23vh;
     width: 100vw;
-    background-image: url("/midia/ftfundo.jpg");
+    background-image: url("../midia/ftfundo.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -168,7 +168,7 @@ header #title{
 }
 
 #ftnav{
-    background-image: url(/midia/folhinhafundo.jpg);
+    background-image: url("../midia/folhinhafundo.jpg");
     background-size: cover;
     text-align: center;
     color:var(--c3);
