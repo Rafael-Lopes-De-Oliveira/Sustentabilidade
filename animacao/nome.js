@@ -15,7 +15,7 @@ cadastro.addEventListener('click', () =>{
         window.alert('Coloque um Name válido!!')
     }else{
         
-        site.style.zIndex ='4';
+        
         site.style.position ='relative';      
         semibloco.style.display ='none';
         semibloco.style.transition = ' opacity 0.01s';     

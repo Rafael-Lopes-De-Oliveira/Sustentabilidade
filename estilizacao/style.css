@@ -100,12 +100,6 @@ section#semibloco{
     width: 56vw;
 }
 
-#site{
-    z-index: 1;
-    left: 0px;
-    top: 0px;
-    position: fixed;
-}
 
 header{
     padding: 3px;
@@ -126,7 +120,7 @@ header>section>div img{
 section #ftheader{
     display:flex ; 
     justify-content: center;
-    backdrop-filter: blur(1.5px);
+    backdrop-filter: blur(1.1px);
 
 }
 
