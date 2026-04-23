@@ -14,6 +14,13 @@ cadastro.addEventListener('click', () =>{
     if(nome.value == 0){
         window.alert('Coloque um Name válido')
     }else{
+        
+        site.style.zIndex ='4';
+        site.style.position ='relative';      
+        semibloco.style.display ='none';
+        semibloco.style.transition = ' opacity 0.01s';     
+        area.innerHTML = `${nome.value}`;     
+    }
 
 
     if(sex[0].checked){
@@ -22,22 +29,6 @@ cadastro.addEventListener('click', () =>{
         image.src = '../midia/mm.avif';
     }else{
         image.src = '../midia/imgrobo.png'
-    }
-
-        site.style.zIndex ='4';
-        site.style.position ='relative';
-        document.body.style.zIndex = '3'
-        semibloco.style.zIndex ='1';
-        semibloco.style.transition = ' opacity 0.2s';
-        // site.style.display = 'block';
-        // bloco.style.display = 'none';
-        
-        area.innerHTML = `${nome.value}`;
-
-       
-        
-        
-        
     }
 
 })
