@@ -31,9 +31,6 @@
 
 html,body{
     width: 100vw;
-}
-
-body{
     background-color:var(--c1) ;
 }
 
@@ -114,7 +111,7 @@ header{
     padding: 3px;
     height: 23vh;
     
-    background-image: url("../midia/ftfundo.jpg");
+    background-image: url("../midia/newftfundo.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -164,21 +161,14 @@ header #title{
 }
 
 
-#tem2{
-    padding: 15px;
-    height: 92vh;
-    background-color: var(--tem2);
+#tem1>h2{
+    padding-bottom: 10px;
 }
 
 #ftnav{
-    
     background-size: cover;
     text-align: center;
     color:var(--c3);
-}
-
-#ftnav h1{
-    backdrop-filter: blur(0.4px);
 }
 
 #ftnav p{
@@ -194,6 +184,16 @@ header #title{
     color: var(--cor06);
 }
 
+#n{
+    padding-bottom: 13px;
+}
+
+#tem2{
+    padding: 15px;
+    height: 92vh;
+}
+
+
 h2{
     text-align: center;
     color: var(--tem4);
@@ -206,9 +206,7 @@ h2{
     width: 30vw;
 }
 
-#n{
-    padding-bottom: 13px;
-}
+
 
 #tripesus img{
     width: 40vw;

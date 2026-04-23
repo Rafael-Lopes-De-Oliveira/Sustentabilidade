@@ -12,7 +12,7 @@ const cadastro = window.document.querySelector('#cadastro');
 cadastro.addEventListener('click', () =>{
     
     if(nome.value == 0){
-        window.alert('Coloque um Name válido')
+        window.alert('Coloque um Name válido!!')
     }else{
         
         site.style.zIndex ='4';
@@ -24,11 +24,11 @@ cadastro.addEventListener('click', () =>{
 
 
     if(sex[0].checked){
-        image.src = '../midia/low.jpg';
+        image.src = 'midia/low.jpg';
     }else if (sex[1].checked){
-        image.src = '../midia/mm.avif';
+        image.src = 'midia/newmm.png';
     }else{
-        image.src = '../midia/imgrobo.png'
+        image.src = 'midia/imgrobo.png'
     }
 
 })
